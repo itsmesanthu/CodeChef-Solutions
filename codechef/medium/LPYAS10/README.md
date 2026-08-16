@@ -4,17 +4,20 @@
 
 ## Problem
 
-_Description not available._
+### Print Learn Coding on CodeChef
+
+Print  **"Learn Coding on CodeChef"**  to the console.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T17:34:39.388Z  
+**Submitted:** 2026-08-16T17:35:05.175Z  
 
 ```py
-print(9*12)
+print( "Learn Coding on CodeChef" )
+
 ```
 
 ---

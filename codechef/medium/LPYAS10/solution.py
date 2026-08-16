@@ -1,1 +1,1 @@
-print(9*12)
+print( "Learn Coding on CodeChef" )

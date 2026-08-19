@@ -23,7 +23,7 @@ print(c)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:38:08.970Z  
+**Submitted:** 2026-08-19T16:38:02.750Z  
 
 ```cpp
 n=int(input())

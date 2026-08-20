@@ -1,4 +1,4 @@
-# Apple and Orange
+# Number Line Jumps
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -50,7 +50,7 @@ A single line of four space-separated integers denoting the respective values of
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T12:13:05.091Z  
+**Submitted:** 2026-08-20T12:24:34.489Z  
 
 ```py
 #!/bin/python3
@@ -62,51 +62,41 @@ import re
 import sys
 
 #
-# Complete the 'countApplesAndOranges' function below.
+# Complete the 'kangaroo' function below.
 #
+# The function is expected to return a STRING.
 # The function accepts following parameters:
-#  1. INTEGER s
-#  2. INTEGER t
-#  3. INTEGER a
-#  4. INTEGER b
-#  5. INTEGER_ARRAY apples
-#  6. INTEGER_ARRAY oranges
+#  1. INTEGER x1
+#  2. INTEGER v1
+#  3. INTEGER x2
+#  4. INTEGER v2
 #
 
-def countApplesAndOranges(s, t, a, b, apples, oranges):
-    totalapples=totaloranges=0
-    for i in range(len(apples)):
-        if s<=a+apples[i]<=t:
-            totalapples+=1
-    for i in range(len(oranges)):
-        if s<=b+oranges[i]<=t:
-            totaloranges+=1
-    print(totalapples)
-    print(totaloranges)
+def kangaroo(x1, v1, x2, v2):
+    h=x1-x2
+    if v1>v2 and h% (v1-v2)==0:
+        return "YES"
+    else:
+        return "NO"
+
 if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
     first_multiple_input = input().rstrip().split()
 
-    s = int(first_multiple_input[0])
+    x1 = int(first_multiple_input[0])
 
-    t = int(first_multiple_input[1])
+    v1 = int(first_multiple_input[1])
 
-    second_multiple_input = input().rstrip().split()
+    x2 = int(first_multiple_input[2])
 
-    a = int(second_multiple_input[0])
+    v2 = int(first_multiple_input[3])
 
-    b = int(second_multiple_input[1])
+    result = kangaroo(x1, v1, x2, v2)
 
-    third_multiple_input = input().rstrip().split()
+    fptr.write(result + '\n')
 
-    m = int(third_multiple_input[0])
-
-    n = int(third_multiple_input[1])
-
-    apples = list(map(int, input().rstrip().split()))
-
-    oranges = list(map(int, input().rstrip().split()))
-
-    countApplesAndOranges(s, t, a, b, apples, oranges)
+    fptr.close()
 
 ```
 

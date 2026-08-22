@@ -96,7 +96,7 @@ Chef's current brain speed of $8$ bps is not greater than the threshold of $53$ 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T16:46:31.641Z  
+**Submitted:** 2026-08-22T16:46:39.635Z  
 
 ```py
 x,y = map(int,input().split())

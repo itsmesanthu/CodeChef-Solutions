@@ -96,16 +96,13 @@ Chef's current brain speed of $8$ bps is not greater than the threshold of $53$ 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T16:50:58.631Z  
+**Submitted:** 2026-08-22T16:52:11.925Z  
 
 ```py
 x,y = map(int,input().split())
 # write your code here
-if  1 <=x and y<=100:
-    if x==y:
-        print("NO")
-    else:
-        print("YES")
+if y > x:
+    print("YES")
 else:
     print("NO")
 ```

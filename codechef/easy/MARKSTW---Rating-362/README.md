@@ -55,7 +55,7 @@ Alice has scored $X = 1$ mark whereas Bob has scored $Y = 2$ marks. As Alice has
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T15:49:23.782Z  
+**Submitted:** 2026-08-23T15:49:35.774Z  
 
 ```py
 x,y = map(int,input().split())

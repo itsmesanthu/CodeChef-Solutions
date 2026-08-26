@@ -1,6 +1,7 @@
-n=int(input())
-m=1
-while n>0:
-    m*=n
-    n-=1
-print(m)
+v= "aeiou"
+w=str(input())
+count=0
+for i in range(len(w)):
+    if w[i] in v:
+        count+=1
+print(count)

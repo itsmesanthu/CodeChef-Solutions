@@ -15,7 +15,7 @@ Chef drank $X$ ml of water today. Select the options where Chef followed the doc
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T12:32:20.152Z  
+**Submitted:** 2026-08-27T12:32:27.000Z  
 
 ```cpp
 t = int(input())

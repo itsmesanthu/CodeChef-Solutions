@@ -1,4 +1,4 @@
-# Mod Divmod
+# Power - Mod Power
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -63,14 +63,14 @@ $2 \le m \le 1000$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T14:12:04.844Z  
+**Submitted:** 2026-08-27T14:30:24.344Z  
 
 ```py
-a = int(input())
-b = int(input())
-print(a // b)
-print(a % b)
-print(divmod(a, b))
+a=int(input())
+b=int(input())
+m=int(input())
+print(a**b)
+print((a**b)%m)
 
 ```
 

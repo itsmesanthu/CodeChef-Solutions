@@ -4,8 +4,6 @@
 
 ## Problem
 
-### Print I love CodeChef
-
 Print each word of the below-given sentence on a new line.
 
 ```
@@ -18,10 +16,10 @@ I love CodeChef
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T17:55:51.734Z  
+**Submitted:** 2026-08-28T11:37:33.828Z  
 
 ```py
-print("I\nlove\nCodeChef")
+print("I love CodeChef")
 ```
 
 ---

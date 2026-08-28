@@ -1,1 +1,1 @@
-print("I\nlove\nCodeChef")
+print("I love CodeChef")

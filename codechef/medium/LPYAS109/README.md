@@ -4,8 +4,6 @@
 
 ## Problem
 
-### Print Squares
-
 Write a program that utilizes a while loop to print the squares of numbers from 1 to $N$.
 
 Check the sample input / output below further clarity
@@ -27,12 +25,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:59:40.112Z  
+**Submitted:** 2026-08-28T12:10:41.223Z  
 
 ```py
 num = int(input())
-for i in  range(1,num+1):
+i=1
+while i<=num:
     print(i*i,end=" ")
+    i+=1
 ```
 
 ---

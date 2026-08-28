@@ -1,9 +1,9 @@
-m=int(input())
-if m>90:
+n=int(input())
+if n>90:
     print("A")
-elif m>70:
+elif n>70:
     print("B")
-elif m>=40:
+elif n>=40:
     print("C")
-elif m<40:
-    print("f")
+else:
+    print("F")

@@ -4,8 +4,6 @@
 
 ## Problem
 
-### Positive and Negative
-
 Write a program to check whether a number given as user input is positive, negative, or zero.
 
 ### Sample 1:
@@ -49,7 +47,7 @@ Negative
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T16:52:09.284Z  
+**Submitted:** 2026-08-30T12:44:47.065Z  
 
 ```py
 n=int(input())

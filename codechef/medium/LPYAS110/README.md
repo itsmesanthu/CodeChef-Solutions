@@ -4,8 +4,6 @@
 
 ## Problem
 
-### Print factorial
-
 Write a program that uses a while loop to find the factorial of a given number.
 
 What is the Factorial of an integer $N$?
@@ -47,7 +45,7 @@ Factorial of 5 = 1  *2*  3  *4*  5 = 120
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T17:08:40.375Z  
+**Submitted:** 2026-08-30T12:59:50.987Z  
 
 ```py
 n=int(input())
@@ -56,6 +54,8 @@ while n>0:
     m*=n
     n-=1
 print(m)
+    
+
 ```
 
 ---

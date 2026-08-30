@@ -28,7 +28,7 @@ Odd
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T13:08:10.373Z  
+**Submitted:** 2026-08-30T13:08:28.237Z  
 
 ```py
 def is_even(num):

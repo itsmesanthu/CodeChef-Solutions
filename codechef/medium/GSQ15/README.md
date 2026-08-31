@@ -25,7 +25,7 @@ Your database is named 'employee' and has the following columns
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T09:56:30.622Z  
+**Submitted:** 2026-08-31T09:56:42.820Z  
 
 ```sql
 /* Debug this query to run the problem successfully. 

@@ -4,20 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### Practice Problem - Alter table
+
+Listen
+
+You are given a table -  **employee**  (mentioned below)
+
+Write a query which does the following
+
+- Add a new column 'Hourly_Pay' to the table employee and set the value as 100 by default.
+- Output the entire table
+- Original table has the following rows
+
+```
+┌─────────────┬────────────────┬────────────┐
+│ Employee_id │ Employee_Name  │ Department │
+├─────────────┼────────────────┼────────────┤
+│ 1           │ Kayla Thompson │ Sales      │
+│ 2           │ Ethan Chen     │ Hr         │
+│ 3           │ Julia Lee      │ Operations │
+│ 4           │ Marcus Garcia  │ Hr         │
+└─────────────┴────────────────┴────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T09:42:02.944Z  
+**Submitted:** 2026-08-31T09:44:04.195Z  
 
 ```sql
-/*Write a query to set the Department as 'HR', for the employee with employee_id 2 to the existing table employee. */
-update employee
-set Department='HR'
-where employee_id=2;
+/* Write a query which does the following
+- Add a new column 'Hourly_Pay' to the table employee and set the value as 100 by default.
+- Output the entire table
+*/
+alter table employee 
+add Hourly_Pay  default 100;
 select * from employee;
 ```
 

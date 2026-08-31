@@ -4,25 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Practice - Delete From
+
+Listen
+
+You are given a table -  **employee**  (mentioned below).
+
+Write a query which does the following
+
+- Delete the row where the department is Client.
+- Output the entire table.
+- Original table has the following rows
+
+```
+┌─────────────┬────────────────┬────────────┐
+│ Employee_id │ Employee_Name  │ Department │
+├─────────────┼────────────────┼────────────┤
+│ 1           │ Kayla Thompson │ Sales      │
+│ 2           │ Ethan Chen     │ Operations │
+│ 3           │ Julia Lee      │ Client     │
+│ 4           │ Marcus Garcia  │ Product    │
+└─────────────┴────────────────┴────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T09:53:21.965Z  
+**Submitted:** 2026-08-31T09:54:25.988Z  
 
 ```sql
-/* Write a query to create a table employee with the mentioned constraints on the columns : 
-employee_id - PRIMARY KEY, 
-employee_Name -UNIQUE, 
-department -NOT NULL CHECK (department IN ('Sales', 'Finance', 'Operations')) */
-CREATE TABLE employee (
-    employee_id INTEGER PRIMARY KEY,
-    employee_Name TEXT UNIQUE,
-    department TEXT NOT NULL CHECK (department IN ('Sales', 'Finance', 'Operations'))
-);
+/* Write a query which does the following
+- Delete the row where the department is Client.
+- Output the entire table.
+*/
+Delete from employee
+where department="Client";
+select * from employee;
 ```
 
 ---

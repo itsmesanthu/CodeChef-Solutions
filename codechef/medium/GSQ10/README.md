@@ -33,7 +33,7 @@ Write a query which does the following
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T09:44:04.195Z  
+**Submitted:** 2026-08-31T09:44:10.066Z  
 
 ```sql
 /* Write a query which does the following

@@ -50,7 +50,7 @@ But the variable names are not following the rule. Can you spot the mistake and 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T12:49:23.548Z  
+**Submitted:** 2026-09-02T14:46:00.273Z  
 
 ```py
 # Fix one of the variable names to make the code work

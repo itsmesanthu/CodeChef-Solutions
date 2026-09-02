@@ -4,37 +4,19 @@
 
 ## Problem
 
-### Area of Rectangle
-
-Listen
-
-Write a program which does the following
-
-- Find out and display the area of a rectangle of sides 45 and 76 respectively.
-- Declare variables length, width and area and assign the relevant values to them
-- Output the value of variable area
-
- **Note:**  Area of rectangle = length * width
-
- **Expected Output** 
-
-```
-3420
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T12:52:48.247Z  
+**Submitted:** 2026-09-02T14:46:11.694Z  
 
 ```py
-length=45
-width=76
-area=length*width
-print(area)
+a=23
+b=20
+print(a+b)
 ```
 
 ---

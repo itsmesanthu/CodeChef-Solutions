@@ -32,7 +32,7 @@ Code it out in the IDE.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T15:53:05.936Z  
+**Submitted:** 2026-09-02T14:02:06.058Z  
 
 ```sql
 /* Write a query to find the unique origin locations */

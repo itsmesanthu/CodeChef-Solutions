@@ -37,7 +37,7 @@ Remember that the column details are as follows
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:20:04.200Z  
+**Submitted:** 2026-09-02T14:20:21.776Z  
 
 ```sql
 /* Write a query that does the following

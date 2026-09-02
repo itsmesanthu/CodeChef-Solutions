@@ -4,50 +4,66 @@
 
 ## Problem
 
-### Variables in Python
+### Declaring a variable
 
 Listen
 
-A  **variable**  is like a labelled box where you can store data. Imagine you have a box labeled "age" and you put the number 25 in it. In Python, you would do this by writing:
+There are many different types of variables in Python. The type of a variable is defined by the kind of value it stores.
+
+Some variable types in Python are as follows
 
 ```
+# Numeric variables - hold integers and decimal values
 age = 25
+temperature = 98.6
+
+# String variables - Stores a sequence of characters enclosed in single or double quotes
+name = "John Doe"
+message = 'Hello, world!'
+
+# Boolean variables - only hold the values true and false
+is_true = True
+is_false = False
+
+# List variables - Stores a collection of items, which can be of different types.
+numbers = [1, 2, 3, 4, 5]
+fruits = ['apple', 'banana', 'orange']
+
+# Tuple variables
+coordinates = (10, 20)
+
+# Dictionary variables
+person = {'name': 'Alice', 'age': 30}
+
+# Set variables
+unique_numbers = {1, 2, 3}
+
+# None variable
+empty_value = None
 
 ```
 
-When you write this, python creates a box(variable) with name $age$ and stores 25 in that box(variable).
-
-- This process of creating a variable to store a value is called Declaration and
-- The process of setting its value for the first time is called Initialization.
-
-Here's the cool part: whenever you use `age` in your code, Python will remember it is 25. For example, if you write `print(age)`, Python will show 25.
-
-```
-print(age) # Output: 25
-
-```
-
-Learn more about variables from this short video explanation:
+We will learn about all of them in coming lessons.
 
 ### Task
-- Create a variable in editor named age and assign the value 25 to it.
-- Print the value of age variable using print statement.
 
-Notice how we don't use " " (double quotes) when printing variables.
+Write a program which does the following
+
+- There is a variable named number having value 20 in the editor.
+- Use the print command to output the value of (number - 1).
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:45:34.096Z  
+**Submitted:** 2026-09-02T14:45:46.484Z  
 
 ```py
-# Replace __ with 25
+# Replace __ in print statement to print (number - 1)
 
-age =25
-print(age)
-
+number = 20
+print(number-1)
 ```
 
 ---

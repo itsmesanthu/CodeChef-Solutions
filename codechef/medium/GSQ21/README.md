@@ -30,7 +30,7 @@ Remember that the column details are as follows
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:32:56.571Z  
+**Submitted:** 2026-09-03T06:31:14.352Z  
 
 ```sql
 /* Debug this query to get the correct output */

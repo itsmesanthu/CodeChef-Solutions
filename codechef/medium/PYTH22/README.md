@@ -4,22 +4,27 @@
 
 ## Problem
 
-_Description not available._
+### Addition of Variables
+
+Listen
+
+Write a program which does the following:
+
+- Declare two variables $a$ and $b$.
+- Assign the value $23$ to $a$ and $20$ to $b$.
+- Output the sum of $a$ and $b$ to the console.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T12:49:26.585Z  
+**Submitted:** 2026-09-03T14:20:10.695Z  
 
 ```py
-# Fix one of the variable names to make the code work
-
-st_name = "Code"
-last_name = "Chef"
-print(st_name, last_name)
-
+a=23
+b=20
+print(a+b)
 ```
 
 ---

@@ -24,13 +24,12 @@ Write a program to output the squares (using multiplication) of numbers from 1 t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T12:35:30.789Z  
+**Submitted:** 2026-09-04T12:20:08.163Z  
 
 ```py
 n=5
 for i in range(1,n+1):
     print(i,"-",i*i)
-
 ```
 
 ---

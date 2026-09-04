@@ -4,19 +4,23 @@
 
 ## Problem
 
-_Description not available._
+Which lines of code will output the sum of 7 and 19?
+
+ **Hint: There are two correct answers.**
 
 ## Solution
 
-**Language:** default  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T09:59:40.926Z  
+**Submitted:** 2026-09-04T12:22:08.146Z  
 
-```default
-# Replace the code print(__ + __) with print(21 + 40)
-
-print(21 +40)
+```py
+n=4
+for i in range(0,n):
+    for j in range(0,n):
+        print("*",end="")
+    print()
 ```
 
 ---

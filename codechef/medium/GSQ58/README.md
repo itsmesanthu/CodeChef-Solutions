@@ -33,7 +33,7 @@ Your database is named 'employee' and has the following columns
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T14:54:56.266Z  
+**Submitted:** 2026-09-05T14:55:23.759Z  
 
 ```sql
 /* **Debug this query** to output the minimum and maximum value of payout, round to 2 decimal places. */

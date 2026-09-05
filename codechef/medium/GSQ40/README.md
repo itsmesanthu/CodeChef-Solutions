@@ -61,7 +61,7 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T14:43:42.942Z  
+**Submitted:** 2026-09-05T14:44:07.411Z  
 
 ```sql
 /*Write 3 separate queries to output the entries for the following
@@ -70,7 +70,7 @@ Expected output
 - Minimum Hourly pay for the department 'Operations'.
 
 Output the counts on separate lines */
-select Count(*) from employee where department='Sales';
+select Count(*)AS 'count_sales'  from employee where department='Sales';
 select max(Hourly_Pay) as 'ops_max_pay' from employee where department='Operations';
 select min(Hourly_Pay) as 'ops_min_pay' from employee where department='Operations';
 ```

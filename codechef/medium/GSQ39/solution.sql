@@ -1,4 +1,2 @@
-/*Write a query to find the highest and lowest 'Hourly_pay' of the employees from the table 'employee'*/
-
-select max(Hourly_pay) as 'max_pay'from employee;
-select min(Hourly_pay) as 'min_pay' from employee;
+/* Write a query to round the **Taxable_Pay** to 2 decimal place from the table employee. */
+select round(Taxable_Pay,2) as 'taxable_pay' from employee;

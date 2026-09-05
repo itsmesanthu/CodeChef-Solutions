@@ -4,6 +4,6 @@
 - Minimum Hourly pay for the department 'Operations'.
 
 Output the counts on separate lines */
-select Count(*) from employee where department='Sales';
+select Count(*)AS 'count_sales'  from employee where department='Sales';
 select max(Hourly_Pay) as 'ops_max_pay' from employee where department='Operations';
 select min(Hourly_Pay) as 'ops_min_pay' from employee where department='Operations';

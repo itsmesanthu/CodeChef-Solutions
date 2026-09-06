@@ -1,8 +1,18 @@
 import pandas as pd
 
-# update the code below
-students = ['Student_1',"Student_2","Student_3","Student_4","Student_5"]
+grades = pd.Series([65, 92, 68, 72, 84], index=['Alice', 'Bob', 'Charlie', 'David', 'Eva'])
 
-grades = pd.Series([85, 90, 88, 92, 95],index=students )
-
+# Update your code below this line
+grades = grades + 10
 print(grades)
+
+grades[grades > 100] = 100
+print(grades)
+
+bins = [0, 59, 79, 100]
+labels = ['<60', '60 - 79', '80 - 100']
+
+categorised_grades = pd.cut(grades, bins=bins, labels=labels)
+grade_summary = categorised_grades.value_counts().sort_index()
+grade_summary = grade_summary.rename(None)
+print(grade_summary)

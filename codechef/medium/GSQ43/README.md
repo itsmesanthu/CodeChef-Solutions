@@ -40,7 +40,7 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T04:17:18.860Z  
+**Submitted:** 2026-09-06T04:17:27.558Z  
 
 ```sql
 /* Write a query to find the Average of the column 'Payout' from the table 'employee'. */

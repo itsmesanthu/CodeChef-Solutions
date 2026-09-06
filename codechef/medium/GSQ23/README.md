@@ -44,7 +44,7 @@ Expected Output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T13:56:53.249Z  
+**Submitted:** 2026-09-06T04:12:52.410Z  
 
 ```sql
 /* write a query below that returns the rows which meet the following conditions

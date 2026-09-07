@@ -33,14 +33,14 @@ We have populated these conditions in the IDE - run the code to see the expected
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T05:20:55.799Z  
+**Submitted:** 2026-09-07T05:21:32.178Z  
 
 ```py
 import pandas as pd
 
 # Case 1: All keys are common
 data = [
-    {'name': 'Alice', 'age': 25, 'city': 'New York'},
+    {'name': 'Alice', 'age': 25, 'cty': 'New York'},
     {'name': 'Bob', 'age': 30, 'city': 'San Francisco'},
     {'name': 'Charlie', 'age': 35, 'city': 'Los Angeles'}
 ]

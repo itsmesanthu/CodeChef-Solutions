@@ -2,7 +2,7 @@ import pandas as pd
 
 # Case 1: All keys are common
 data = [
-    {'name': 'Alice', 'age': 25, 'city': 'New York'},
+    {'name': 'Alice', 'age': 25, 'cty': 'New York'},
     {'name': 'Bob', 'age': 30, 'city': 'San Francisco'},
     {'name': 'Charlie', 'age': 35, 'city': 'Los Angeles'}
 ]

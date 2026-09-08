@@ -18,12 +18,16 @@ Kelvin - 298.5
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T11:37:14.006Z  
+**Submitted:** 2026-09-08T09:33:28.046Z  
 
 ```py
+# cook your dish here
+
+
+# Declare a variable "temperature" and initialize it with a value of 25.5
 temperature=25.5
-print("Celsius-",temperature)
-print("Kelvin-",temperature+ 273)
+print('Celsius-',temperature)
+print("Kelvin-",temperature + 273)
 ```
 
 ---

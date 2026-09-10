@@ -75,7 +75,7 @@ Perform the following operations on the given DataFrame.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T08:49:53.010Z  
+**Submitted:** 2026-09-10T08:50:12.109Z  
 
 ```py
 import pandas as pd

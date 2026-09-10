@@ -9,12 +9,25 @@ df = pd.DataFrame({
                    
 print(df)  
 
-# Drop rows where column A has missing values
-print(df.dropna(subset=['A']))
+# Replace null values based on given conditions
+print(df.fillna({'A':0,'B':99,'C':"Unknown"}))
 
-# Drop rows with less than 2 non-null values
-print(df.dropna(thresh=2))
 
-# Drop rows where both Column A and Column B has missing values
+# Forward fill column B
+df_forward = df.copy()
+df_forward['B'] = df_forward['B'].ffill()
+print(df_forward)
 
-print(df.dropna(subset=['A','B'], how='all'))
+
+# Fills missing values in numeric columns with the mean of the column and in string columns with 'Unknown'.
+def fill_missing_values(df):
+    df=df.copy()
+    for i in df.columns:
+        if pd.api.types.is_numeric_dtype(df[i]):
+            df[i]=df[i].fillna(df[i].mean())
+        else:
+            df[i]=df[i].fillna('Unknown')
+    return df
+res=fill_missing_values(df)
+print(res)
+

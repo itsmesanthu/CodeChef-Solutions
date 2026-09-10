@@ -73,7 +73,7 @@ You are given a DataFrame. Perform the following operations. Check the expected 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:08:11.816Z  
+**Submitted:** 2026-09-10T08:29:02.392Z  
 
 ```py
 import pandas as pd

@@ -4,38 +4,23 @@
 
 ## Problem
 
-### String length
-
-Listen
-
-We can use the len() function to get the length of a string.
-
-For eg.
-
-```
-greeting = "hello"
-len_string = len(greeting)
-# len_string now stores the value of the length of greeting
-
-```
-
-### Task
-
-Write a program which does the following
-
-- Create a variable txt and assign it the text NumeroTres
-- Use the len() function to output to the console the number of characters in txt
+_Description not available._
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T13:11:20.181Z  
+**Submitted:** 2026-09-11T13:10:14.105Z  
 
 ```py
-w="NumeroTres"
-print(len(w))
+# We need to output 2569 using string concatenation.
+# The code below is incorrect - Debug the code to solve the problem
+
+string1 = "25"
+string2 = "69"
+
+print(string1 + string2)
 ```
 
 ---

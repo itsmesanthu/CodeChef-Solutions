@@ -1,0 +1,1 @@
+select * from customers where address='Not Provided';

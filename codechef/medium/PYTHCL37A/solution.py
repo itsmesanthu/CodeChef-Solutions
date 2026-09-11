@@ -1,0 +1,1 @@
+print("tenet"*100)

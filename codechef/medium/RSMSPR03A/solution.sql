@@ -1,0 +1,1 @@
+select Distinct category from products;

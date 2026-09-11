@@ -4,17 +4,65 @@
 
 ## Problem
 
-_Description not available._
+### Task-3C Data Retrieval Using Queries
+
+Listen
+
+Write queries for the following data retrieval operations based on the tables that we created and the data that we inserted.
+
+### Task
+
+Find the 2 most expensive products from the Products table.
+
+### Expected output
+
+```
+┌────────────┬──────────────────┬─────────────┬────────┬────────────────┐
+│ product_id │       name       │  category   │ price  │ stock_quantity │
+├────────────┼──────────────────┼─────────────┼────────┼────────────────┤
+│ 101        │ Apple iPhone 15  │ Electronics │ 999.99 │ 10             │
+│ 109        │ Sofa Set (3+1+1) │ Furniture   │ 999.99 │ 4              │
+└────────────┴──────────────────┴─────────────┴────────┴────────────────┘
+
+```
+
+### Tables
+- Customers
+
+```
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │
+└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
+
+```
+
+- Products
+
+```
+┌────────────┬────────────────────┬─────────────┬────────┬────────────────┐
+│ product_id │        name        │  category   │ price  │ stock_quantity │
+└────────────┴────────────────────┴─────────────┴────────┴────────────────┘
+
+```
+
+- Orders
+
+```
+┌──────────┬─────────────┬────────────┬──────────────┬─────────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any  │
+└──────────┴─────────────┴────────────┴──────────────┴─────────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T13:34:39.962Z  
+**Submitted:** 2026-09-11T13:35:50.125Z  
 
 ```sql
-select * from orders where total_amount>900;
+select * from products order  by price desc limit 2;
 ```
 
 ---

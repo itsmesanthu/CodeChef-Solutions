@@ -39,7 +39,7 @@ Your database is named 'employee' and has the following columns
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T13:51:44.038Z  
+**Submitted:** 2026-09-11T13:18:50.281Z  
 
 ```sql
 /* Debug the below query */

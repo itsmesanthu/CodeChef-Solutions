@@ -1,1 +1,1 @@
-select * from orders where total_amount>900;
+select * from products order  by price desc limit 2;

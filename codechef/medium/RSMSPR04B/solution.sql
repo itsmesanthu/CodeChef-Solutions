@@ -1,1 +1,3 @@
-select name,(price+(price/100)*10) as 'price',stock_quantity from products limit 1 ;
+ALTER TABLE Orders 
+ADD discount float(10, 2) DEFAULT 0.0;
+select order_id,total_amount,discount from orders limit 1;

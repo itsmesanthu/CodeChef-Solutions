@@ -4,17 +4,68 @@
 
 ## Problem
 
-_Description not available._
+### Task-4B Data Modification (Update and Alter)
+
+Listen
+
+Write queries for the following data modification operations based on the tables that we created and the data that we inserted.
+
+### Task
+
+Add a new column "discount" to the Orders table.
+Set its default value to 0.
+Then, retrieve the order_id, total_amount and discount of the first order from the Orders table.
+
+### Expected output
+
+```
+┌──────────┬──────────────┬──────────┐
+│ order_id │ total_amount │ discount │
+├──────────┼──────────────┼──────────┤
+│ 1001     │ 999.99       │ 0.0      │
+└──────────┴──────────────┴──────────┘
+
+```
+
+### Tables
+- Customers
+
+```
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │
+└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
+
+```
+
+- Products
+
+```
+┌────────────┬────────────────────┬─────────────┬────────┬────────────────┐
+│ product_id │        name        │  category   │ price  │ stock_quantity │
+└────────────┴────────────────────┴─────────────┴────────┴────────────────┘
+
+```
+
+- Orders
+
+```
+┌──────────┬─────────────┬────────────┬──────────────┬─────────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any  │
+└──────────┴─────────────┴────────────┴──────────────┴─────────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T13:42:55.972Z  
+**Submitted:** 2026-09-12T15:55:11.418Z  
 
 ```sql
-select name,(price+(price/100)*10) as 'price',stock_quantity from products limit 1 ;
+ALTER TABLE Orders 
+ADD discount float(10, 2) DEFAULT 0.0;
+select order_id,total_amount,discount from orders limit 1;
 ```
 
 ---

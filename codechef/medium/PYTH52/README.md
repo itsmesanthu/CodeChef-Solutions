@@ -4,16 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+What will be the output of the following code
+
+```
+name = input()
+print("Your name is:", name)
+
+```
+
+if the user enters the following
+
+```
+Chef
+
+```
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T15:16:15.152Z  
+**Submitted:** 2026-09-14T15:16:48.972Z  
 
-```py
+```cpp
 n=int(input())
 print(n)
 ```

@@ -59,10 +59,11 @@ Then, retrieve all the details of all the products whose stock quantity is 0 fro
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T13:45:31.268Z  
+**Submitted:** 2026-09-15T15:54:59.426Z  
 
 ```sql
-/* Update your query here*/update  products set stock_quantity=0
+/* Update your query here*/
+update  products set stock_quantity=0
 where stock_quantity =10;
 select * from products where stock_quantity=0;
 ```

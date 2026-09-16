@@ -4,19 +4,64 @@
 
 ## Problem
 
-_Description not available._
+### Multiple string inputs
+
+Listen
+
+You've seen how to use the  **`input()`**  function to take input multiple times, accepting one value per line. However, sometimes you need to accept multiple inputs in a single line. To do this, you can use the  **`split()`**  function.
+
+For example, if the user inputs the following:
+
+```
+Good Great Awesome
+
+```
+
+You can read these inputs like this:
+
+```
+a, b, c = input().split()
+
+```
+
+The  **`split()`**  function breaks this single line of input into multiple parts. By default,  **`split()`**  divides the input based on spaces, so each word separated by a space is treated as an independent input and stored in different variables.
+
+### Task
+- Write a program that accepts four words from the user in a single line and prints them in reverse order.
+### Sample 1:
+Input
+Output
+
+```
+Air Water Earth Fire
+```
+
+```
+Fire Earth Water Air
+```
+
+### Sample 2:
+Input
+Output
+
+```
+coffee headphone swiss chocolate
+```
+
+```
+chocolate swiss headphone coffee
+```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T09:12:05.253Z  
+**Submitted:** 2026-09-16T09:16:05.665Z  
 
-```cpp
-# Update your code below this line
-n=int(input())
-print(n*n)
+```py
+a, b, c, d = input().split()
+print(d,c,b,a)
 ```
 
 ---

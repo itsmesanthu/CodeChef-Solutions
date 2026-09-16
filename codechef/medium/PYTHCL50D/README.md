@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T09:18:36.381Z  
+**Submitted:** 2026-09-16T09:19:00.621Z  
 
 ```py
 a, b, c = map(int, input().split())

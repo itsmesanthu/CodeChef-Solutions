@@ -1,3 +1,8 @@
 # Update your code below this line
-n=int(input())
-print(n*n)
+
+a = int(input())
+b = int(input())
+sum=a+b
+diff=a-b
+print(sum)
+print(diff)

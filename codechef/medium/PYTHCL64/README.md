@@ -73,7 +73,7 @@ Since there is no else statement nothing happens if the condition is False. Henc
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T13:11:09.861Z  
+**Submitted:** 2026-09-17T17:18:23.865Z  
 
 ```py
 a=int(input())

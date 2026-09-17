@@ -1,8 +1,9 @@
-# Update the '_' in the code below to solve the problem
-
-age =int(input())
-
-if age>=18:
-    print("Old enough to vote")
+r = 1000
+w = 3222
+if r > w:
+#This code will not run due to improper indentation
+    print("White balls are out of stock")  
 else:
-    print("Not old enough to vote")
+#Fix the error by putting a space before both print
+    print("Your order is Confirmed")
+

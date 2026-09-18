@@ -25,14 +25,14 @@ Coding on CodeChef - 18
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T12:42:00.248Z  
+**Submitted:** 2026-09-18T14:30:57.945Z  
 
 ```py
-s="Coding on CodeChef"
+s='Coding on CodeChef'
 w=s.split()
 for i in w:
     print(i,"-",len(i))
-print(f"{s} - {len(s)}")
+print(s,'-',len(s))
 ```
 
 ---

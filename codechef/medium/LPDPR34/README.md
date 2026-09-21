@@ -27,7 +27,7 @@ Let's consider a column with 1 million rows, containing only the values 'Apple',
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T12:59:45.788Z  
+**Submitted:** 2026-09-21T13:00:34.645Z  
 
 ```py
 import pandas as pd

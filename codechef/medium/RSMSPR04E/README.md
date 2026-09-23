@@ -61,7 +61,7 @@ Then, retrieve the order_id, total_amount, discount of all orders that has at le
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T16:10:12.464Z  
+**Submitted:** 2026-09-23T13:20:35.413Z  
 
 ```sql
 ALTER TABLE Orders 

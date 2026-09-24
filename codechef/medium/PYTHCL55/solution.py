@@ -1,2 +1,2 @@
-n=input()
-print("Hello",n)
+s=input()
+print("Hello",s)

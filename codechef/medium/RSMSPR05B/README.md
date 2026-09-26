@@ -4,7 +4,7 @@
 
 ## Problem
 
-### Task-5A Deleting Records
+### Task-5B Deleting Records
 
 Listen
 
@@ -15,25 +15,21 @@ In real-life databases, we do this to revert back to the savepoint in case we ne
 
 ### Task
 
-Remove all products that are out of stock.
-Then, retrieve the product_id, name and stock_quantity of all products from the Product table.
+Delete all orders that were placed before 2024-01-20.
+Then, retrieve the order_id, customer_id, order_date, total_amount of all orders from the Orders table.
 
 ### Expected output
 
 ```
-┌────────────┬─────────────────────┬────────────────┐
-│ product_id │        name         │ stock_quantity │
-├────────────┼─────────────────────┼────────────────┤
-│ 102        │ Samsung Galaxy S23  │ 15             │
-│ 103        │ Leather Jacket      │ 25             │
-│ 104        │ HP Laptop           │ 8              │
-│ 105        │ Wooden Dining Table │ 5              │
-│ 106        │ Nike Running Shoes  │ 20             │
-│ 107        │ LED TV 55"          │ 12             │
-│ 108        │ Rice 10kg           │ 50             │
-│ 109        │ Sofa Set (3+1+1)    │ 4              │
-│ 110        │ Organic Honey 500ml │ 30             │
-└────────────┴─────────────────────┴────────────────┘
+┌──────────┬─────────────┬────────────┬──────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │
+├──────────┼─────────────┼────────────┼──────────────┤
+│ 1006     │ 6           │ 2024-01-20 │ 499.99       │
+│ 1007     │ 7           │ 2024-01-21 │ 129.99       │
+│ 1008     │ 8           │ 2024-01-22 │ 699.99       │
+│ 1009     │ 9           │ 2024-01-23 │ 25.99        │
+│ 1010     │ 10          │ 2024-01-24 │ 15.99        │
+└──────────┴─────────────┴────────────┴──────────────┘
 
 ```
 
@@ -70,16 +66,17 @@ Then, retrieve the product_id, name and stock_quantity of all products from the 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T13:25:59.936Z  
+**Submitted:** 2026-09-26T16:04:27.629Z  
 
 ```sql
 BEGIN TRANSACTION;
 SAVEPOINT S1;
 --Savepoint created incase any changes to the the database beyond this point has to be undone in the future.
 
-/* Update your query below this line*/
-delete from products where stock_quantity=0;
-select product_id,name,stock_quantity from products;
+/* Update your query here*/
+delete from orders where
+order_date<'2024-01-20';
+select order_id, customer_id, order_date, total_amount  from orders;
 ```
 
 ---

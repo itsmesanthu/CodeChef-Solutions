@@ -30,7 +30,7 @@ We have populate a practical example in the IDE to show how GroupBy works. Go ah
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T16:46:40.732Z  
+**Submitted:** 2026-09-30T15:11:59.551Z  
 
 ```py
 import pandas as pd

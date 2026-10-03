@@ -1,5 +1,7 @@
-age = 28
-if age % 2 == 0:
-    print("Even")
+# Add an if /else condition to the code below
+
+a, b = map(int, input().split())
+if b == 0:
+    print("infinity")
 else:
-    print("Odd")
+    print(a // b)

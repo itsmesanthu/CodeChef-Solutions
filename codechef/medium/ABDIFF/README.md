@@ -64,12 +64,12 @@ The difference between these values is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T09:44:11.334Z  
+**Submitted:** 2026-10-08T09:42:42.462Z  
 
 ```py
 a,b = map(int,input().split())
 if a>=1 and b<=10:
-    print(int((a*b)-(a+b)))
+    print((a*b)-(a+b))
     
 ```
 

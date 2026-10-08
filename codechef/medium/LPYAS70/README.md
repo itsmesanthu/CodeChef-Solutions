@@ -53,10 +53,10 @@ Neither
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T12:48:48.222Z  
+**Submitted:** 2026-10-08T09:37:15.519Z  
 
 ```py
-a,b,c=map(int, input().split())
+a,b,c=input().split()
 if a<b<c:
     print("Increasing")
 elif a>b>c:

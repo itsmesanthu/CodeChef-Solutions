@@ -1,5 +1,3 @@
-n,m=input().split()
-if int(n)>=18 and m=="India":
-    print("Eligible")
-else:
-    print("Not Eligible")
+a,b = map(int,input().split())
+
+# write your code here

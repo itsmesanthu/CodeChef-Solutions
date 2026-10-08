@@ -64,7 +64,7 @@ The difference between these values is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T09:42:42.462Z  
+**Submitted:** 2026-10-08T09:42:53.465Z  
 
 ```py
 a,b = map(int,input().split())

@@ -61,19 +61,19 @@ F
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T11:42:58.784Z  
+**Submitted:** 2026-10-08T09:33:43.941Z  
 
 ```py
-n=int(input())
-if n>90:
-    print("A")
-elif n>70:
-    print("B")
-elif n>=40:
-    print("C")
+# cook your dish here
+m=int(input())
+if m>90:
+    print('A')
+elif m>70:
+    print('B')
+elif m>=40:
+    print('C')
 else:
     print("F")
-
 ```
 
 ---

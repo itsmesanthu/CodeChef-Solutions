@@ -1,6 +1,7 @@
-# your code goes here
-C = int(input())
-if C>20:
-    print("HOT")
+number = int(input())
+if number > 0:
+    print("The number is positive")
+elif number == 0:
+    print("The number is zero")
 else:
-    print("COLD")
+    print("The number is negative")

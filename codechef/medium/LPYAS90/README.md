@@ -4,20 +4,77 @@
 
 ## Problem
 
-_Description not available._
+Rectify the errors in the program to get the desired output
+
+Check the sample input / output below for further clarity.
+
+### Sample 1:
+Input
+Output
+
+```
+1
+```
+
+```
+Option 1 selected
+```
+
+### Sample 2:
+Input
+Output
+
+```
+2
+```
+
+```
+Option 2 selected
+```
+
+### Sample 3:
+Input
+Output
+
+```
+3
+```
+
+```
+Option 3 selected
+```
+
+### Sample 4:
+Input
+Output
+
+```
+Any number other than 1, 2 or 3
+```
+
+```
+Invalid choice
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T06:25:36.283Z  
+**Submitted:** 2026-10-09T06:26:51.786Z  
 
 ```py
-# Debug and fix the code
-str = input()
-n = len(str)
-print(str[n-1]) 
+# Update the code below to debug the problem
+choice = int(input())
+
+if choice == 1:
+    print("Option 1 selected")
+elif choice == 2:
+    print("Option 2 selected")
+elif choice == 3:
+    print("Option 3 selected")
+else:
+    print("Invalid choice")
 ```
 
 ---

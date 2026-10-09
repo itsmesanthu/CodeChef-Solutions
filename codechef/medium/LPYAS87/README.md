@@ -39,11 +39,11 @@ true
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T11:53:55.738Z  
+**Submitted:** 2026-10-09T06:24:49.693Z  
 
 ```py
 # Debug and fix the code
-n = int(input())
+n =int(input())
 
 if n % 2 == 0:
     print("true")

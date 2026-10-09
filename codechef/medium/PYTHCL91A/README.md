@@ -4,22 +4,59 @@
 
 ## Problem
 
-_Description not available._
+The code in the IDE checks if a number is positive, negative or zero. But this program has a compilation error. Run the program to check the error and fix it.
+
+### Sample 1:
+Input
+Output
+
+```
+5
+```
+
+```
+The number is positive
+```
+
+### Sample 2:
+Input
+Output
+
+```
+0
+```
+
+```
+The number is zero
+```
+
+### Sample 3:
+Input
+Output
+
+```
+-3
+```
+
+```
+The number is negative
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T06:20:45.281Z  
+**Submitted:** 2026-10-09T06:23:00.747Z  
 
 ```py
-# your code goes here
-C = int(input())
-if C>20:
-    print("HOT")
+number = int(input())
+if number > 0:
+    print("The number is positive")
+elif number == 0:
+    print("The number is zero")
 else:
-    print("COLD")
+    print("The number is negative")
 
 ```
 

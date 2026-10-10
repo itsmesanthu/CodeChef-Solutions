@@ -1,4 +1,3 @@
-# Update the code below this line
-d=["Monday", "Tuesday", "Wednesday", "Thursday"]
-print(d[len(d)-2])
-print(d[len(d)-1])
+# Update your code below this line
+n=[10, 20, 30, 40, 50, 60]
+print(len(n))

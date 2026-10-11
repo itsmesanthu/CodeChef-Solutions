@@ -66,7 +66,7 @@ Then, retrieve the order_id, customer_id, order_date, total_amount of all orders
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T17:46:51.435Z  
+**Submitted:** 2026-10-11T16:04:46.306Z  
 
 ```sql
 BEGIN TRANSACTION;

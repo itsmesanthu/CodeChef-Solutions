@@ -1,3 +1,2 @@
-n=list(map(int,input().split()))
-res=n[0]*n[2]
-print(res)
+arr=list(map(int,input().split()))
+print(arr[1-1]*arr[3-1])

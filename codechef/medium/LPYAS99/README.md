@@ -30,12 +30,11 @@ Here first element is 10 and 3rd element is 25, Hence 10 x 25 = 250
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T12:57:44.322Z  
+**Submitted:** 2026-10-13T15:46:45.332Z  
 
 ```py
-n=list(map(int,input().split()))
-res=n[0]*n[2]
-print(res)
+arr=list(map(int,input().split()))
+print(arr[1-1]*arr[3-1])
 ```
 
 ---

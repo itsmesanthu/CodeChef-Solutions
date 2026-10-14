@@ -1,4 +1,4 @@
-# Say "Hello, World!" With Python
+# XML2 - Find the Maximum Depth
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -53,10 +53,18 @@ Thus, the maximum depth is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T10:57:25.241Z  
+**Submitted:** 2026-10-14T11:12:35.960Z  
 
 ```py
-print("Hello, World!")
+
+maxdepth = 0
+def depth(elem, level):
+    global maxdepth
+    maxdepth=max(maxdepth,level+1)
+    for i in elem:
+        depth(i,level+1)
+    
+
 
 ```
 

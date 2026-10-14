@@ -1,1 +1,1 @@
-select * from Products
+select product_name,category from products where price>100;

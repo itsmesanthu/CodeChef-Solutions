@@ -1,2 +1,1 @@
--- your code goes here
-select distinct company_name from works;
+select count(*)as 'fiction_count' from Books where genre='Fiction';

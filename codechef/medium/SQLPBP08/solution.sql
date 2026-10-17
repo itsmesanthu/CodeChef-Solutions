@@ -1,1 +1,3 @@
-select book_id, title, author,published_year from Library where rating is null;
+select employee_name, company,salary from Employees
+where category='Full-Time'
+order by salary desc;

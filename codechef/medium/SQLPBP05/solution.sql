@@ -1,2 +1,6 @@
 -- your code goes here
-select player_name,score from players where player_name in (select winner from matches) order by score desc ;
+SELECT m.match_id, m.player_1, m.player_2, m.winner, m.match_date, p.score
+FROM Matches m
+JOIN Players p ON m.winner = p.player_name
+ORDER BY m.match_date DESC
+LIMIT 5;

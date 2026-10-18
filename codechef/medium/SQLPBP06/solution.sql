@@ -1,2 +1,1 @@
--- your code goes here
-select department,count(*) as 'total_employees' from Employees group by department;
+select  author_id, author_name,publication_name from Views where View_count=0 order by author_id;

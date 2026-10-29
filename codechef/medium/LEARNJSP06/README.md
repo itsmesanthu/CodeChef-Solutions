@@ -10,12 +10,12 @@ Which lines of code will output the sum of 7 and 19?
 
 ## Solution
 
-**Language:** default  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T15:29:56.066Z  
+**Submitted:** 2026-10-29T15:30:14.585Z  
 
-```default
+```cpp
 //Replace first __ with 21 and second __ with 40
 
 console.log(21+40);

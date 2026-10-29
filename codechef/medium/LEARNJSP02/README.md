@@ -24,12 +24,12 @@ Click on  **Submit**  below the editor to know the result. Then click on next to
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-29T15:22:34.525Z  
+**Submitted:** 2026-10-29T15:22:46.223Z  
 
 ```js
 // Click submit to print the value 12
 var num=12;
-console.log(12);
+console.log(num);
 ```
 
 ---

@@ -4,16 +4,18 @@
 
 ## Problem
 
-_Description not available._
+### MCQ on output in separate lines
+
+How do we print output on separate lines in JavaScript?
 
 ## Solution
 
-**Language:** JavaScript  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T05:41:17.637Z  
+**Submitted:** 2026-10-30T05:41:56.412Z  
 
-```js
+```cpp
 // Update the '__'  (underscores) below to solve the problem
 
 console.log(11*13)        // Area of the rectangle

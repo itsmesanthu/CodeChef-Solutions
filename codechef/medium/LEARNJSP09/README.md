@@ -4,19 +4,28 @@
 
 ## Problem
 
-_Description not available._
+### Outputs on the same line
+
+Listen
+
+We can print multiple outputs on the same line, using the commas inside console.log() function.
+
+Write a program which does the following
+
+- Output: 3 + 4
+- Output: 2 + 1 on the same line
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T05:38:12.621Z  
+**Submitted:** 2026-10-30T05:39:29.951Z  
 
 ```js
-// your code goes here
-console.log(3+4);
-console.log(2+1);
+// complete the code by replacing underscores with required expressions
+
+console.log(3+4 ,2+1)
 ```
 
 ---

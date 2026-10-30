@@ -18,7 +18,7 @@ console.log("We need to understand", "how to print multiple output in a single l
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T05:42:17.299Z  
+**Submitted:** 2026-10-30T05:42:49.213Z  
 
 ```cpp
 // Update the '__'  (underscores) below to solve the problem

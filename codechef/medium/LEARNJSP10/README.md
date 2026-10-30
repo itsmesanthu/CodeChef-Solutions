@@ -4,30 +4,28 @@
 
 ## Problem
 
-### Area & Perimeter of Rectangle
+### Outputs on the same line
 
 Listen
 
-Write a program for the following problem
+We can print multiple outputs on the same line, using the commas inside console.log() function.
 
-- Let’s consider a rectangle of sides 11 and 13.
-- Output the following on separate lines: Area of the rectangle having sides as 11 and 13 Perimeter of the rectangle having sides as 11 and 13
+Write a program which does the following
 
-For any rectangle, the formula for area is length * breadth.
-The formula for perimeter is 2 * (length + breadth)
+- Output: 3 + 4
+- Output: 2 + 1 on the same line
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T05:41:13.265Z  
+**Submitted:** 2026-10-30T05:39:31.696Z  
 
 ```js
-// Update the '__'  (underscores) below to solve the problem
+// complete the code by replacing underscores with required expressions
 
-console.log(11*13)        // Area of the rectangle
-console.log(2 * (11 +13))    // Perimeter of the rectangle
+console.log(3+4 ,2+1)
 ```
 
 ---

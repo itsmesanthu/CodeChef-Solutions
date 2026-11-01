@@ -1,4 +1,4 @@
-// Complete the code
+//Complete the code (replace the underscore with required value)
 
-var number = 20;
-console.log(number-1);
+var age = 25;
+console.log(age);

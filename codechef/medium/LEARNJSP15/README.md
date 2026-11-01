@@ -4,51 +4,16 @@
 
 ## Problem
 
-### Multiple Choice Question
-
-What will be the output of this code?
-
-```
-console.log(82 + " " +  2 +  "   " +  3);
-
-```
-
- **Option 1** :
-
-```
-8223
-
-```
-
- **Option 2** :
-
-```
-82 2 3
-
-```
-
- **Option 3** :
-
-```
-82 2   3
-
-```
-
- **Option 4** :
-
-```
-82 2 " " 3
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-31T16:14:12.969Z  
+**Submitted:** 2026-10-31T16:13:45.193Z  
 
-```cpp
+```js
 // Replace the underscores in the editor as suggested on the left. 
 
 console.log(7, "plus", 3, "equals",10);

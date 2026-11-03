@@ -1,5 +1,5 @@
-// Solution as follows
-var a, b;
-a = 23;
-b = 20;
-console.log(a + b);
+// your code goes here
+var l=45;
+var w=76;
+var a=(l*w) ;
+console.log(a)

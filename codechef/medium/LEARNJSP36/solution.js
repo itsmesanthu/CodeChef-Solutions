@@ -1,0 +1,3 @@
+// your code goes here
+let fruit='Apple';
+console.log(fruit)

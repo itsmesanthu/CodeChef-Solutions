@@ -32,13 +32,13 @@ Write a program which does the following
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T17:00:21.099Z  
+**Submitted:** 2026-11-05T14:23:27.718Z  
 
 ```js
 // your code goes here
 var a='Learning';
 var b='is fun!';
-console.log(a,b)
+console.log(a,b);
 ```
 
 ---

@@ -4,20 +4,38 @@
 
 ## Problem
 
-_Description not available._
+### String length
+
+Listen
+
+We can use the  **`length`**  property to get the length of a `string`.
+For eg.
+
+```
+var greeting = "hello";
+console.log(greeting.length);
+// output is 5
+
+```
+
+### Task
+
+Write a program which does the following
+
+- Create a variable txt and assign it the text NumeroTres
+- Use the length property to output to the console the number of characters in txt
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-05T14:31:40.231Z  
+**Submitted:** 2026-11-06T16:34:30.814Z  
 
 ```js
-var x = 10;
-var y = 12;
-console.log("" + x + y);
-
+// your code goes here
+var txt='NumeroTres';
+console.log(txt.length);
 ```
 
 ---

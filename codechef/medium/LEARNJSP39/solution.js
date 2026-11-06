@@ -1,3 +1,3 @@
-var x = 10;
-var y = 12;
-console.log("" + x + y);
+// your code goes here
+var txt='NumeroTres';
+console.log(txt.length);

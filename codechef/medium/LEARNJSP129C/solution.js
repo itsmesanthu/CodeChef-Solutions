@@ -1,16 +1,14 @@
 // Submit the code and observe the flow
 
-function greet(name, callback) {
-  console.log("hello", name);
+// Main function with an arrow function as a callback
+function doSomething(callback) {
+  console.log('Doing something...');
   
-  // Calling back the callback function
+  // Calling back the arrow function
   callback();
 }
 
-// Callback function
-function sayGoodbye() {
-  console.log('Goodbye!');
-}
-
-// Using the main function with a callback
-greet('Alice', sayGoodbye);
+// Using the main function with an arrow function as a callback
+doSomething(() => {
+  console.log('Callback function called!');
+});

@@ -1,0 +1,7 @@
+// Complete the given function to get the desired output
+
+function check(a, b){
+ if (a!=b){
+     console.log("Coding is Fun")
+ }
+}

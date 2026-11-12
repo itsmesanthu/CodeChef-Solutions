@@ -4,52 +4,73 @@
 
 ## Problem
 
-### Else Statement
+### Conditions in if statements
 
 Listen
 
-As evident from previous example, the  **`else`**  keyword includes anything which isn't included in the previous  **`if`**  or  **`else if`**  conditions.
+You are given a score that the player has achieved in a 100 point game.
 
-### Task
+Print some text based on below conditions:
 
-Some code is written in the editor.
+- If the score is 100, print "Perfect score"
+- If the score is less than 100, but greater or equal to 80, print "Almost perfect score"
+- If the score is less than 80, print "Nice try"
+### Sample 1:
+Input
+Output
 
-- Two variables ram and karan are defined.
-- Output based on these conditions: If ram is greater than karan, output "Ram is heavier than Karan" If ram is less than karan, output "Karan is heavier than Ram" Otherwise, output "Ram & Karan have the same weight!"
+```
+100
+```
 
-Your task is to complete the blanks in the code.
+```
+Perfect score
+```
+
+### Sample 2:
+Input
+Output
+
+```
+85
+```
+
+```
+Almost perfect score
+```
+
+### Sample 3:
+Input
+Output
+
+```
+60
+```
+
+```
+Nice try
+```
 
 ## Solution
 
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T11:57:48.771Z  
+**Submitted:** 2026-11-12T12:02:39.477Z  
 
 ```js
-// Replace the underscore with correct code
+function printScore(score) {
+    // Complete this function
+    if(score===100){
+        console.log("Perfect score")
+    }if(score>80 &&score<100){
+        console.log("Almost perfect score")
+    }if(score<80&&score>60){
+        console.log("Nice try")
+    }
 
-var ram = 74;
-var karan = 82;
-
-if (ram > karan) {
-    console.log("Ram is heavier than Karan");
-} else if(ram < karan) {
-    console.log("Karan is heavier than Ram");
-} else {
-    console.log("Ram & Karan have the same weight!");
 }
-    
-ram = 78
-karan = 78
 
-if (ram >karan){
-    console.log("Ram is heavier than Karan");
-} else if(ram <karan) {
-    print("Karan is heavier than Ram");
-} else {
-    console.log("Ram & Karan have the same weight!");
-}
 ```
 
 ---

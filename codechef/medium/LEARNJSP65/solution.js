@@ -1,9 +1,23 @@
-// Complete the given function to get the desired output
+// Replace the underscore with correct code
 
-function solve(r, b) {
- if(r!=b){
-     console.log("Rob scored higher marks than Bob")
- }else{
-     console.log("Bob & Rob both scored the same")
- }
+var ram = 74;
+var karan = 82;
+
+if (ram > karan) {
+    console.log("Ram is heavier than Karan");
+} else if(ram < karan) {
+    console.log("Karan is heavier than Ram");
+} else {
+    console.log("Ram & Karan have the same weight!");
+}
+    
+ram = 78
+karan = 78
+
+if (ram >karan){
+    console.log("Ram is heavier than Karan");
+} else if(ram <karan) {
+    print("Karan is heavier than Ram");
+} else {
+    console.log("Ram & Karan have the same weight!");
 }

@@ -1,23 +1,11 @@
-// Replace the underscore with correct code
+function printScore(score) {
+    // Complete this function
+    if(score===100){
+        console.log("Perfect score")
+    }if(score>80 &&score<100){
+        console.log("Almost perfect score")
+    }if(score<80&&score>60){
+        console.log("Nice try")
+    }
 
-var ram = 74;
-var karan = 82;
-
-if (ram > karan) {
-    console.log("Ram is heavier than Karan");
-} else if(ram < karan) {
-    console.log("Karan is heavier than Ram");
-} else {
-    console.log("Ram & Karan have the same weight!");
-}
-    
-ram = 78
-karan = 78
-
-if (ram >karan){
-    console.log("Ram is heavier than Karan");
-} else if(ram <karan) {
-    print("Karan is heavier than Ram");
-} else {
-    console.log("Ram & Karan have the same weight!");
 }

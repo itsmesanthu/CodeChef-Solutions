@@ -21,7 +21,7 @@ if x === 5 {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T09:03:58.535Z  
+**Submitted:** 2026-11-17T15:58:19.821Z  
 
 ```cpp
 // Debug/Fix the given function

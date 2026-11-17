@@ -67,7 +67,7 @@ Equal
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T09:03:24.344Z  
+**Submitted:** 2026-11-17T15:58:08.008Z  
 
 ```js
 // Debug/Fix the given function

@@ -45,7 +45,7 @@ It is clearly saying that we're comparing the string variable name which has the
 **Language:** JavaScript  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T09:02:24.227Z  
+**Submitted:** 2026-11-17T15:57:55.775Z  
 
 ```js
 // Fix the code below so that it can print "Expensive"

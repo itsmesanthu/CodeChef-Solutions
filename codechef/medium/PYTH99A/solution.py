@@ -1,6 +1,10 @@
-# Print each item of the list on a separate line
+# Count how many 'o's are present in the string using a 'for' loop and 'if' condition
 
-numbers = [1, 6, 4, 3, 2, 5]
-for i in numbers:
-    print(i)
-    
+string = 'bolloon'
+
+# use this variable to count occurrences of o
+count_o = 0      
+for i in string:
+    if i=="o":
+        count_o+=1
+print(count_o)
